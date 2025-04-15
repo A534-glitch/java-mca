@@ -6,7 +6,7 @@ public class SimpleCalculator extends Frame implements ActionListener {
     Button add, sub, mul, div;
 
     SimpleCalculator() {
-        // Create components
+
         t1 = new TextField(10);
         t2 = new TextField(10);
         result = new TextField(20);
@@ -17,13 +17,13 @@ public class SimpleCalculator extends Frame implements ActionListener {
         mul = new Button("*");
         div = new Button("/");
 
-        // Add listeners
+        
         add.addActionListener(this);
         sub.addActionListener(this);
         mul.addActionListener(this);
         div.addActionListener(this);
 
-        // Layout
+        
         setLayout(new FlowLayout());
 
         add(new Label("Number 1:"));
@@ -34,12 +34,12 @@ public class SimpleCalculator extends Frame implements ActionListener {
         add(new Label("Result:"));
         add(result);
 
-        // Frame settings
+        
         setSize(300, 200);
         setTitle("Simple Calculator");
         setVisible(true);
 
-        // Close window
+        
         addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
                 dispose();
@@ -82,7 +82,7 @@ public class SimpleCalculator extends Frame implements ActionListener {
     Button add, sub, mul, div;
 
     SimpleCalculator() {
-        // Create components
+        
         t1 = new TextField(10);
         t2 = new TextField(10);
         result = new TextField(20);
@@ -93,13 +93,13 @@ public class SimpleCalculator extends Frame implements ActionListener {
         mul = new Button("*");
         div = new Button("/");
 
-        // Add listeners
+        
         add.addActionListener(this);
         sub.addActionListener(this);
         mul.addActionListener(this);
         div.addActionListener(this);
 
-        // Layout
+        
         setLayout(new FlowLayout());
 
         add(new Label("Number 1:"));
@@ -110,12 +110,12 @@ public class SimpleCalculator extends Frame implements ActionListener {
         add(new Label("Result:"));
         add(result);
 
-        // Frame settings
+        
         setSize(300, 200);
         setTitle("Simple Calculator");
         setVisible(true);
 
-        // Close window
+        
         addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
                 dispose();
