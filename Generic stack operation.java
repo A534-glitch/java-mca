@@ -8,7 +8,7 @@ class Stack<T> {
     @SuppressWarnings("unchecked")
     public Stack(int size) {
         maxSize = size;
-        stackArray = (T[]) new Object[maxSize]; // generic array creation
+        stackArray = (T[]) new Object[maxSize]; 
         top = -1;
     }
 
@@ -34,7 +34,6 @@ class Stack<T> {
         }
     }
 
-    // Check if stack is empty
     public boolean isEmpty() {
         return top == -1;
     }
