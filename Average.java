@@ -36,7 +36,7 @@ public class Average {
             }
         }
 
-        // Calculate and display the average if count > 0 (to avoid division by zero)
+        
         if (count > 0) {
             double average = (double) sum / count;  
             System.out.println("The Average of the valid numbers is: " + average);
